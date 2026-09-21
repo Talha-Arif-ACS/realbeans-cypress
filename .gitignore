@@ -3,3 +3,4 @@
   cypress/screenshots/
   .env
   .DS_Store
+  cypress.env.json
