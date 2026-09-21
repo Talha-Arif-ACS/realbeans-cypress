@@ -1,5 +1,5 @@
 const STORE_URL = 'https://r1066207-realbeans.myshopify.com'
-const PASSWORD = 'tayflo'
+const PASSWORD = Cypress.env('STORE_PASSWORD')
 
 describe('RealBeans Shopify Store', () => {
 
